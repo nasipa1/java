@@ -28,6 +28,10 @@ public class Book {
         this.year = year;
     }
 
+    public String toString() {
+        return title + " " + author + " " + year;
+    }
+
     public Book(String title, String author, int year) {
         this.title = title;
         this.author = author;
