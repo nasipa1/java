@@ -67,13 +67,6 @@ public class LambdaExercises {
         BiFunction<Integer, Integer, Integer> max = (a, b) -> {if(a > b) return a; else return b;};
         System.out.println("Max = " + max.apply(5, 3));
 
-
-
-
-
-
-
-
     }
 }
 
